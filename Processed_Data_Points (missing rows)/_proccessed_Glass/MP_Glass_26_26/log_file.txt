@@ -1,0 +1,9 @@
+ERROR: ch_REF_Glass_26_26_4_2_5_250_1_000.mat; Pos idx 40; Angle 5; Power 250; Msg: Index in position 1 exceeds array bounds. Index must not exceed 13.
+ERROR: ch_REF_Glass_26_26_4_2_5_250_2_000.mat; Pos idx 41; Angle 5; Power 250; Msg: Index in position 1 exceeds array bounds. Index must not exceed 14.
+ERROR: ch_REF_Glass_26_26_4_2_5_250_3_000.mat; Pos idx 42; Angle 5; Power 250; Msg: Index in position 1 exceeds array bounds. Index must not exceed 12.
+ERROR: ch_REF_Glass_26_26_4_2_5_354_1_000.mat; Pos idx 40; Angle 5; Power 354; Msg: Index in position 1 exceeds array bounds. Index must not exceed 12.
+ERROR: ch_REF_Glass_26_26_4_2_5_354_2_000.mat; Pos idx 41; Angle 5; Power 354; Msg: Index in position 1 exceeds array bounds. Index must not exceed 14.
+ERROR: ch_REF_Glass_26_26_4_2_5_354_3_000.mat; Pos idx 42; Angle 5; Power 354; Msg: Index in position 1 exceeds array bounds. Index must not exceed 12.
+ERROR: ch_REF_Glass_26_26_4_2_5_500_1_000.mat; Pos idx 40; Angle 5; Power 500; Msg: Index in position 1 exceeds array bounds. Index must not exceed 14.
+ERROR: ch_REF_Glass_26_26_4_2_5_500_2_000.mat; Pos idx 41; Angle 5; Power 500; Msg: Index in position 1 exceeds array bounds. Index must not exceed 13.
+ERROR: ch_REF_Glass_26_26_4_2_5_500_3_000.mat; Pos idx 42; Angle 5; Power 500; Msg: Index in position 1 exceeds array bounds. Index must not exceed 15.
