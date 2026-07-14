@@ -42,6 +42,12 @@ This change actually brings us back up to a little over 70 percent! We are makin
 
 ---
 
+The model in `material_classifier_4.ipynb` is mostly the same, but with some small changes. A lot of the difference here is just from refactoring, removing code that wasn't being used, and cleaning things up in general. We did however also update it to correctly take in the peak data. `material_classifier_3.ipynb` was not using the peak data as initially intended, so this just corrected that. We still maintain approximately 70% accuracy but going forward I think we should look at other metrics as well.
+
+Metrics like F1 score, Precision and Recall are typically better at describing what's happening when there is a big class imbalance (and there is). Currently, we are classifying almost all of the wood samples correctly. Drywall is a little worse and about one-third of the time our model is mistaking them for wood. Glass classification is even worse than that with a little over half of the samples being mistaken for drywall. Metal is by far the worst (likely because of missing data), and is being mistaken for glass almost 60% of the time.
+
+---
+
 $\dots$
 
 ---
