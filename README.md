@@ -5,12 +5,23 @@ A repository to store code, data, papers, etc. for our work with WINGS at SUNY P
 ## Todo List:
 
 - Figure out how to fix the issue with the `.mat` files causing us to discard $\frac 13$ of the data.
+- Ashley: Random Forest / Feature Importance
+- Seth: RNN
+- Try a version where we feed k of the maximum 2-tuples (delay, power) into a CNN
+- Try a version kind of like `material_classifier_1.ipynb` where we just shrink the multipath profile down to the 100 maximum values
+- Transformer w/ attention
+- Long term: eventually want to make a whole toolchain of several models
 
 ## Some Ideas:
 
 - Can we use an RNN layer for any part of this?
 - Can we use a Transformer instead of a CNN?
 
+## Some things to keep in mind
+
+- We want to know if we can claim that it is 'lightweight'. How much power, resources, time, etc. is it consuming to process this data?
+- We may also want to be able to claim that the model is extremely accurate.
+- With the newer data, if we know the antenna configuration, can we make the model perform better?
 
 ## Progress
 
