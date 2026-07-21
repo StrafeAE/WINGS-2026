@@ -59,6 +59,10 @@ Metrics like F1 score, Precision and Recall are typically better at describing w
 
 ---
 
+We added a 2 Random Forest classifiers to try and extract feature importance. It turns out that `P_sig_mean` is our most important feature in terms of determining the material. Next, would be the `peak_val` features, all of which are highly correlated with `P_sig_mean`. This is not surprising, since that is essentially our multipath. What is interesting though is that in the process, we realized that our model might accidentally be "memorizing" some of the features that are file-wide and might only appear once. This led me to try `material_classifier_5`, which removes those file-wide features and runs the same classifier we had before.
+
+---
+
 $\dots$
 
 ---
